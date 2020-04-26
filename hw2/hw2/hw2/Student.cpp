@@ -4,4 +4,4 @@
 //constructor
 Student::Student(std::string name):name(name)
 {
-}
+};

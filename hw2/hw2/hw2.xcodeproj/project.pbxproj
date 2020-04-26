@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		A175566F24563034002F8D48 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A175566E24563034002F8D48 /* main.cpp */; };
+		A1755678245630B0002F8D48 /* Student.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1755676245630B0002F8D48 /* Student.cpp */; };
+		A175567F2456314B002F8D48 /* StudentClub.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A175567E2456314B002F8D48 /* StudentClub.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		A175566B24563034002F8D48 /* hw2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = hw2; sourceTree = BUILT_PRODUCTS_DIR; };
 		A175566E24563034002F8D48 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A1755676245630B0002F8D48 /* Student.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Student.cpp; sourceTree = "<group>"; };
+		A175567C24563106002F8D48 /* Student.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Student.h; path = ../Student.h; sourceTree = "<group>"; };
+		A175567D24563126002F8D48 /* StudentClub.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StudentClub.h; sourceTree = "<group>"; };
+		A175567E2456314B002F8D48 /* StudentClub.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = StudentClub.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				A175566E24563034002F8D48 /* main.cpp */,
+				A175567C24563106002F8D48 /* Student.h */,
+				A175567D24563126002F8D48 /* StudentClub.h */,
+				A1755676245630B0002F8D48 /* Student.cpp */,
+				A175567E2456314B002F8D48 /* StudentClub.cpp */,
 			);
 			path = hw2;
 			sourceTree = "<group>";
@@ -120,6 +130,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A175566F24563034002F8D48 /* main.cpp in Sources */,
+				A1755678245630B0002F8D48 /* Student.cpp in Sources */,
+				A175567F2456314B002F8D48 /* StudentClub.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
